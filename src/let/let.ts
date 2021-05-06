@@ -5,7 +5,6 @@ interface ItemProps {
     salePrice: number;
     saleInventory: number;
   }
-
 }
 
 // 3 simple checks
@@ -14,19 +13,21 @@ interface ItemProps {
 //* If there is no sale price or no sale inventory: Return price.
 
 function getLowestPrice({ item }: ItemProps) {
+  const count = item.inventory;
+  let price = item.price;
 
-  if (!item.inventory) {
-    return `There is ${item.inventory} in inventory`
+  if (item.salePrice) {
+    const saleCount = item.saleInventory;
+    if (saleCount > 0) {
+      price = item.salePrice;
+    }
   }
 
-  if (item.salePrice && item.saleInventory) {
-    return `There Sales price is ${item.salePrice}`
+  if (count) {
+    return price
   }
 
-  if (!item.salePrice && !item.saleInventory) {
-    return `There price is ${item.price}`
-  }
-
+  return 0
 }
 
 console.log(

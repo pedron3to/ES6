@@ -1,12 +1,13 @@
 {
   "scripts": {
-    "dev": "ts-node src/let/let.ts"
+    "dev": "ts-node src/async.await/async.ts"
   },
   "dependencies": {
     "nodemon": "^2.0.7",
     "typescript": "^4.2.4"
   },
   "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
     "ts-node": "^9.1.1"
   }
 }

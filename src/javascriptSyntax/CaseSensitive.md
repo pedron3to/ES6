@@ -1,0 +1,1 @@
+textArea and textarea are different;

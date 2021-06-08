@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node src/questions/example4.js"
+    "dev": "ts-node src/VariablesInJavascript/scope.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",

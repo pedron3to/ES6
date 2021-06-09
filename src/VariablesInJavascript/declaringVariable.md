@@ -25,3 +25,10 @@ let keyword.
 
 is a block scoped variable. 
 is limited in the code block, statement, or expression in which it is used.
+
+var: creates global mutable pointers. 
+let: creates local mutable pointers
+const: creates immutable pointers.
+
+All variables are pointers:
+Assignment is the act of pointing tha variable to something in memory.

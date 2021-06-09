@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node src/VariablesInJavascript/scope.js"
+    "dev": "ts-node src/while/while.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",

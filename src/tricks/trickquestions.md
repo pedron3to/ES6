@@ -1,0 +1,1 @@
+* In javascript everething is an object.

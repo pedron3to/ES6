@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node src/arrays/copyWithin.js"
+    "dev": "ts-node src/teste.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",

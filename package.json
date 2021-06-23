@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node src/teste.js"
+    "dev": "ts-node src/algorithms/vowelsAndConsonants.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",

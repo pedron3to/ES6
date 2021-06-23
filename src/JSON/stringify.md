@@ -1,0 +1,1 @@
+method converts a JavaScript object or value to a JSON string

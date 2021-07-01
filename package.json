@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node src/Strings/match.js"
+    "dev": "ts-node src/algorithms/HowManyPairs.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",

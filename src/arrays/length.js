@@ -1,3 +1,7 @@
+
 const array = ["a", "b", "c"];
 
-console.log(array.length);
+array.length = 10; //the engine will update the array's length 
+
+console.log(array.length); //
+

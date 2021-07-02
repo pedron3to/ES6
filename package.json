@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node src/arrays/from.js"
+    "dev": "ts-node src/Objects/toString.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node src/arrays/forEach.js"
+    "dev": "ts-node src/algorithms/BigONotation/add.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",

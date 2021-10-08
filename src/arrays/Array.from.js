@@ -1,4 +1,4 @@
-function f() {
+function f ({}) {
   return Array.from(arguments)
 }
 

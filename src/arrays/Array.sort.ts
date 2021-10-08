@@ -1,4 +1,4 @@
-const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+const fruitsSort: string[] = ["Banana", "Orange", "Apple", "Kiwi"];
 const number = [1, 20, 2, 50, 60];
 
 console.log(fruits.sort()) //ascending

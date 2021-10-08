@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "dev": "ts-node src/arrays/forEach.ts"
+    
+    
+    "dev": "ts-node src/arrays/RemoveOrSubstitute.ts"
   },
   "dependencies": {
     "lodash": "^4.17.21",

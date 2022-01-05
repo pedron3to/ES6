@@ -1,3 +1,7 @@
-How do you improve?
+Problem Solving
 
-Devise a plan for solving problems.
+Understand the problem
+explore concrete examples
+break it Down
+solve/simply
+look Back and Refactor.

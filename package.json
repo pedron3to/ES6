@@ -1,8 +1,6 @@
 {
   "scripts": {
-    
-    
-    "dev": "ts-node src/arrays/RemoveOrSubstitute.ts"
+    "dev": "ts-node src/algorithms/Recursion/factorial.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",

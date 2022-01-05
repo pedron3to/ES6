@@ -1,0 +1,46 @@
+Arguments: 
+  /home/pedro/.nvm/versions/node/v14.17.4/bin/node /home/pedro/.nvm/versions/node/v14.17.4/bin/yarn dev
+
+PATH: 
+  /home/pedro/.zinit/polaris/bin:/home/pedro/.nvm/versions/node/v14.17.4/bin:/home/pedro/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Android/Sdk/emulator:/mnt/c/Android/Sdk/tools:/mnt/c/Android/Sdk/tools/bin:/mnt/c/Android/Sdk/platform-tools:/mnt/c/Users/USUARIO/AppData/Local/Yarn/bin:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/USUARIO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USUARIO/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USUARIO/AppData/Roaming/npm:/mnt/c/Program Files (x86)/BrowserStackLocal/:/home/pedro/Android/Sdk/emulator:/home/pedro/Android/Sdk/tools:/home/pedro/Android/Sdk/tools/bin:/home/pedro/Android/Sdk/platform-tools:/home/pedro/android-studio/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/pedro/pedro/ES6/package.json: Unexpected token } in JSON at position 108
+      at JSON.parse (<anonymous>)
+      at /home/pedro/.nvm/versions/node/v14.17.4/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/pedro/.nvm/versions/node/v14.17.4/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/pedro/.nvm/versions/node/v14.17.4/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "scripts": {
+      
+      
+      "dev": "ts-node src/algorithms/frequencyCounter/NaivefrequencyCounter.ts",
+    },
+    "dependencies": {
+      "lodash": "^4.17.21",
+      "nodemon": "^2.0.7",
+      "typescript": "^4"
+    },
+    "devDependencies": {
+      "@tsconfig/recommended": "^1.0.1",
+      "ts-node": "^9.1.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

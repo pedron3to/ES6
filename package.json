@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node src/STRIPE/test.js"
+    "dev": "ts-node src/JANESTREET/test.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",
